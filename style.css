@@ -1,0 +1,921 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    width: 1750px;
+    height: 900px;
+}
+
+.container{
+    margin: 0px 80px;
+}
+
+.line{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    margin-left: 450px;
+    margin-right: 150px;
+}
+
+.men{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.men:hover{
+    color: rgba(207, 203, 203, 0.943);
+}
+
+.button{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px;   
+}
+
+.button:hover{
+    color: #e6e3e9;
+}
+
+.buton:hover{
+    color: #e9b0ac;
+    box-shadow: 0px 0px 5px rgb(135, 135, 8);
+}
+
+.title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 160px 182px;
+}
+
+.time{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 160px;
+    
+}
+
+.blocks{
+    padding: 20px 30px;
+    margin-top: -120px;
+    margin-left: 20px;
+    
+    background-color: #121212;
+    color: rgba(117, 114, 114, 0.943);
+    
+}
+
+.b18{
+    color: #fff;
+    font-size: 34px;
+}
+
+.header-low{
+    background-color: #121212;
+    margin-top: 150px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.zap{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.buton{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px; 
+}
+
+.b1{
+    display: flex;
+    
+}
+
+.b2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stud{
+    color: rgba(117, 114, 114, 0.943);
+    padding: 10px 10px;
+}
+
+.count{
+    color: #fff;
+    padding-top: 10px ;
+}
+
+.count2{
+    color: #fff;
+    padding-top: 10px ;
+    margin-left: 70px;
+}
+
+
+.stud1{
+    color: rgba(117, 114, 114, 0.943);
+    padding-top: 10px;
+    margin-right: 150px;
+}
+
+.stud2{
+    color: rgba(117, 114, 114, 0.943);
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+.count1{
+    color: #fff;
+    padding-top: 10px;
+    
+}
+
+.shkala{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.over{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    padding: 3px 200px;
+}
+
+.noover{
+    background-color: #fff;
+    padding: 3px 140px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 100px;
+    margin-left: 200px;
+    margin-right: 110px;
+    width: 1260px;
+    
+}
+
+.zanat{
+    padding: 0px 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.abot{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
+
+.txt{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 40px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.fast-start{
+    display: flex;
+}
+
+.start-container{
+    margin: 200px 200px;
+    width: 1260px;
+    height: 500px;
+}
+
+.fst{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 50px;
+    margin-top: 20px;
+}
+
+.p90{
+    margin: 50px 0px;
+}
+
+.t90{
+    color: rgba(117, 114, 114, 0.943);
+}
+
+.persent{
+    display: flex;
+    margin-top: 100px;
+}
+
+.pers1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.pers{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+.dia{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.di1{
+    width: 390px;
+    height: 80px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.di2{
+    width: 390px;
+    height: 60px;
+    margin-top: 10px;
+    background: linear-gradient(94.26deg, #7C6AFA 9.51%,#C89AFC 90.23%);
+}
+
+.di3{
+    width: 390px;
+    height: 30px;
+    margin-top: 25px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.di4{
+    width: 360px;
+    height: 10px;
+    margin-top: 35px;
+    background: linear-gradient(94.26deg, #7C6AFA 9.51%,#C89AFC 90.23%);
+}
+
+.under-txt{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.und-txt{
+    color: rgba(117, 114, 114, 0.943);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.und-txt1{
+    color: rgba(117, 114, 114, 0.943);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container-prof{
+    margin: 200px 200px;
+    width: 1260px;
+}
+
+.profnow{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.spe{
+    display: flex;
+    justify-content: space-around;
+}
+
+.izob{
+    padding-left: 160px;
+    margin-bottom: 15px;
+}
+
+.txt-prof{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 47px;
+    margin-bottom: 15px;
+}
+
+.text-lor{
+    margin-top: 30px;
+}
+
+.txt-lor{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 35px;
+}
+
+.container-partner{
+    margin: 200px 200px;
+    width: 1260px;
+}
+
+.topbrend{
+    display: flex;
+}
+
+.top{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 50px;
+    margin-top: 20px;
+}
+
+.partner-logo{
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27%;
+    margin-left: 60px;
+    margin-top: 100px;
+    grid-row-gap: 50px;
+}
+
+.row{
+    width: 1296px;
+    height: 1px;
+    margin: -168px -65px;
+    background: #575454
+}
+
+.colum1,
+.colum2,
+.colum3{
+    width: 1px;
+    height: 300px;
+    margin: -317px -65px;
+    background: #575454
+}
+
+.img1{
+    transform: rotate(-45deg);
+    
+}
+
+.education-container{
+    width: 750px;
+    margin-left: 480px;
+    height: 1072px;
+    text-align: center;
+    
+}
+
+.progedu{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.endedu{
+    color: rgba(117, 114, 114, 0.943);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0px 170px;
+    margin-bottom: 80px;
+}
+
+.week{
+    color: rgba(117, 114, 114, 0.943);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.weeknechet{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: right;
+    padding: 0px 50px;
+    margin-right: 400px;
+}
+
+.weekchet{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0px 50px;
+    margin-left: 400px;
+}
+
+.palka{
+    width: 6px;
+    height: 670px;
+    margin: -650px 370px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+} 
+
+.bord1{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 30px 327px;
+}
+
+.bord2{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 95px 375px;
+}
+
+.bord3{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 25px 327px;
+}
+
+.bord4{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 85px 375px;
+}
+
+.bord5{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 30px 327px;
+}
+
+.bord6{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 95px 375px;
+}
+
+.bord7{
+    width: 40px;
+    border: #575454 solid 1px;
+    margin: 30px 327px;
+}
+
+.teacher-container{
+    margin: 200px 200px;
+    width: 1260px;
+    
+}
+
+.ourteahers{
+    display: flex;
+}
+
+.img2{
+    transform: rotate(135deg);
+}
+
+.teach{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 50px;
+    margin-top: 20px;
+}
+
+.allteachers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.di{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 40px;
+      
+    text-align: center;
+}
+
+.man{
+    width: 190px;  
+    margin-left: 10px;
+}
+
+.special{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+.biografy{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px; 
+    width: 90px;
+    border: #fff solid 1px;
+    margin: 0px 30px;
+}
+
+.biografy:hover{
+    color: #c1bbbb;
+    text-decoration: none;
+    padding: 12px 32px;
+    box-shadow: 0px 0px 20px rgb(135, 135, 8);
+}
+
+.subcribe-container{
+    width: 550px;
+    margin: 0px 550px;
+    height: 440px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.artic{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.underartic{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(117, 114, 114, 0.943);
+    padding: 0px 70px;
+    margin-top: 30px;
+}
+
+
+
+.emai{
+    background-color: #4f4b4b;
+    padding: 10px 170px;
+    padding-left: 20px;
+    position: absolute;
+    left: 600px;
+    margin-top: 50px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.subc{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    padding: 10px 30px;
+    position:relative;
+    color: #fff;
+    border-radius: 25px;
+    top: 50px;
+    left: 170px;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.subc:hover{
+    padding: 10px 26px;
+    color: #e9b0ac;
+    box-shadow: 0px 0px 5px rgb(135, 135, 8);
+}
+
+.vk{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 50px;
+    top: 90px;
+    right: 25px;
+}
+
+.vk:hover{
+    padding: 9px 9px;
+}
+
+.yt{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 50px;
+    top: 90px;
+    right: 0px;
+}
+
+.yt:hover{
+    padding: 9px 9px;
+}
+
+.fb{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 50px;
+    top: 90px;
+    left: 25px;
+}
+
+.fb:hover{
+    padding: 9px 9px;
+}
+
+.inst{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 50px;
+    top: 90px;
+    left: 50px;
+}
+
+.inst:hover{
+    padding: 9px 9px;
+}
+
+.emai::placeholder { 
+    color: #fff; 
+}
+
+@media screen and (max-width: 500px){
+
+    .about{
+        display: block; 
+    }
+
+    .zanat{
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+
+    .comp{
+        width: 60%;
+        height: 60%;
+        margin: 0% 20%;
+    }
+
+    .abot{
+        text-align: center;
+        font-size: 72px;
+        font-weight: 500;
+    }
+
+    .txt{
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .line{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .log{
+        position: relative;
+        right: 150px;
+        width: 5%;
+        height: 5%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .over{
+        padding: 3px 110px;
+    }
+    
+    .noover{
+        padding: 3px 75px;
+    }
+
+    .header-low{
+        justify-content: space-evenly;
+        
+    }
+
+    .button{
+        position: relative;
+        left: 170px;
+        top: 20px;
+        padding: 16px 50px
+    }
+
+    .buton{
+        padding: 16px 50px
+    }
+
+    .fst,
+    .top,
+    .profnow,
+    .progedu,
+    .teach,
+    .artic{
+        font-size: 72px;
+    }
+
+    .title{
+        font-size: 80px;
+    }
+
+    .t90{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .pers1{
+        font-size: 46px;
+    }
+    .pers{
+        font-size: 46px;
+        margin-left: 225px;
+    }
+
+    .und-txt{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .und-txt1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .container-prof{
+        padding-top:  150px;
+    }
+
+    .allteachers{
+        display: block;
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+
+    .teaher1,
+    .teaher2,
+    .teaher3{
+        padding-left: 200px;
+        margin-bottom: 100px;
+    }
+
+    .man{
+        width: 70%;
+        height: 70%;
+    }
+
+    .di{
+        font-size: 56px;
+        font-weight: 500;
+        padding-right: 250px;
+    }
+
+    .special{
+        font-size: 44px;
+        font-weight: 500;
+        padding-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .biografy{
+        padding: 24px 68px;
+        border-radius: 30px;
+        font-weight: 400;
+        font-size: 44px; 
+        border: #fff solid 1px;
+        margin-left: 150px;
+    }
+
+    .fast-start,
+    .ourteahers,
+    .t90{
+        padding-left: 200px;
+    }
+
+    .topbrend{
+        padding-left: 73px;
+    }
+
+    .partner-logo{
+        grid-template-columns: 40% 40% ;
+        padding-left: 300px;
+        grid-row-gap: 75px;
+    }
+
+    .row{
+        height: 650px;
+        width: 1px;
+        margin: -700px 275px;
+    }
+
+    .colum1{
+        height: 1px;
+        width: 550px;
+        margin: -200px -355px;
+    }
+
+    .colum2{
+        height: 1px;
+        width: 550px;
+        margin: -450px 0px;
+    }
+
+    .colum3{
+        height: 1px;
+        width: 550px;
+        margin: -620px -355px;
+    }
+
+    .weeknechet,
+    .weekchet{
+        font-size: 22px;
+        padding: 0px 30px;
+    }
+
+    .week{
+        font-size: 18px;
+    }
+
+    .palka {
+        width: 6px;
+        height: 770px;
+        margin: -750px 370px;
+    }
+
+    .endedu,
+    .t90,
+    .underartic{
+        font-size: 22px;
+    }
+
+    .izob{
+        padding-left: 230px;
+        width: 30%;
+        height: 30%;
+    }
+
+    .txt-prof{
+        font-size: 36px;
+    }
+
+    .txt-lor{
+        font-size: 22px;
+        margin-bottom: 100px;
+    }
+
+    .inst,
+    .fb,
+    .yt,
+    .vk{
+        padding: 17px 17px;
+    }
+
+    .education-container{
+        margin-top: -120px;
+    }
+
+    .spe{
+        display: block;
+        padding-left: 320px;
+        padding-right: 310px;
+    }
+
+    .bord1{
+        margin: 26px 327px;
+    }
+
+    .bord4{
+        margin: 122px 375px;
+    }
+}
