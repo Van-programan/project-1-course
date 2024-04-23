@@ -679,7 +679,7 @@ header{
     }
 
     .zanat{
-        margin: auto;
+        padding-left: 30px;
     }
 
     .comp{
@@ -732,11 +732,13 @@ header{
         position: relative;
         left: 170px;
         top: 20px;
-        padding: 16px 50px
+        padding: 16px 40px;
+        font-size: 26px;
     }
 
     .buton{
-        padding: 16px 50px
+        padding: 16px 40px;
+        font-size: 26px;
     }
 
     .fst,
@@ -756,6 +758,19 @@ header{
     .t90{
         font-size: 36px;
         font-weight: 500;
+    }
+
+    .di1,
+    .di2,
+    .di3,
+    .di4{
+        width: 290px;
+    }
+
+    .dia,
+    .persent,
+    .under-txt{
+       margin-left: 90px; 
     }
 
     .pers1{
@@ -938,7 +953,7 @@ header{
     .subc{
         padding: 12px 32px;
         top: 50px;
-        left: 170px;
+        left: 240px;
         font-size: 26px;
     }
 }
