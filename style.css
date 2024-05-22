@@ -125,7 +125,7 @@ header{
     font-weight: 700;
     font-size: 64px;
     margin-bottom: 140px;
-    margin: 0px 10.5%;
+    margin: 0px 150px;
     transform: translate(-20%,0px);
     opacity: 0;
     transition: all 1.0s ease 0s;
@@ -140,7 +140,14 @@ header{
     justify-content: flex-start;
     margin-left: 9.5%;
     gap: 20px;
-    
+    transform: translate(-20%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0.5s;
+    margin-top: 20px;
+}
+.time._active {
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 
 .blocks{
@@ -252,6 +259,14 @@ header{
     
 }
 
+.comp {
+    transform: scale(0);
+    transition: all 1.0s ease 0s;
+}
+.about._active .comp {
+    transform: scale(1);
+}
+
 .zanat{
     padding: 0px 20px;
     margin-top: 100px;
@@ -262,7 +277,13 @@ header{
     color: var(--color-body-1);
     font-size: 48px;
     font-weight: 700;
-   
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+.abot._active {
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 
 .txt{
@@ -272,7 +293,15 @@ header{
     margin-top: 40px;
     text-align: left;
     padding-right: 20px;
+    transform: translate(0px,40%);
+    opacity: 0;
+    transition: all 0.8s ease 0.5s;
 }
+.txt._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
 
 .fast-start{
     display: flex;
@@ -290,7 +319,15 @@ header{
     font-weight: 700;
     margin: 0px 50px;
     margin-top: 20px;
+    transform: translate(-20%,0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.0s;
 }
+.fst._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
 
 .p90{
     margin: 50px 0px;
@@ -381,7 +418,15 @@ header{
     font-weight: 700;
     text-align: center;
     margin-bottom: 100px;
+    transform: translate(-10%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0s;
 }
+.profnow._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
 
 .spe{
     display: flex;
@@ -429,6 +474,13 @@ header{
     font-weight: 700;
     margin: 0px 50px;
     margin-top: 20px;
+    transform: translate(-10%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0s;
+}
+.top._active {
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 
 .partner-logo{
@@ -478,7 +530,15 @@ header{
     font-size: 48px;
     font-weight: 700;
     margin-top: 40px;
+    transform: translate(-10%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0s;
 }
+.progedu._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
 
 .endedu{
     color: rgba(117, 114, 114, 0.943);
@@ -585,7 +645,16 @@ header{
     font-weight: 700;
     margin: 0px 50px;
     margin-top: 20px;
+    transform: translate(-10%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0s;
 }
+.teach._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+    
+
 
 .allteachers{
     display: flex;
@@ -647,7 +716,15 @@ header{
     font-size: 48px;
     font-weight: 700;
     color: var(--color-body-1);
+    transform: translate(-10%,0px);
+    opacity: 0;
+    transition: all 1.0s ease 0s;
 }
+.artic._active {
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
 
 .underartic{
     font-size: 16px;
@@ -695,6 +772,9 @@ header{
     border-radius: 50px;
     top: 90px;
     right: 25px;
+
+    transform: scale(0);
+    transition: all 1.0s ease 0s;
 }
 
 .vk:hover{
@@ -708,6 +788,9 @@ header{
     border-radius: 50px;
     top: 90px;
     right: 0px;
+
+    transform: scale(0);
+    transition: all 1.0s ease 0.1s;
 }
 
 .yt:hover{
@@ -721,6 +804,9 @@ header{
     border-radius: 50px;
     top: 90px;
     left: 25px;
+
+    transform: scale(0);
+    transition: all 1.0s ease 0.2s;
 }
 
 .fb:hover{
@@ -734,6 +820,22 @@ header{
     border-radius: 50px;
     top: 90px;
     left: 50px;
+
+    transform: scale(0);
+    transition: all 1.0s ease 0.3s;
+}
+
+.contacts._active .yt {
+    transform: scale(1);
+}
+.contacts._active .vk {
+    transform: scale(1);
+}
+.contacts._active .fb {
+    transform: scale(1);
+}
+.contacts._active .inst {
+    transform: scale(1);
 }
 
 .inst:hover{
